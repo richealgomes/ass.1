@@ -25,13 +25,13 @@ color: #FFFFFF;
 .header{
     background-image:url(../images/banner/banner1.png);
     background-repeat: no-repeat;width: 1600px;
-    height: 1000px;
+    height:800px ;
     
 }
 /* pic and details */
 .pic-details{ background-color:#eaf0f3 ;
     width: 1600px;
-    height: 500px; margin: 20px 20px ; display: flex; justify-content:space-between ;align-items: center; 
+    height: 500px; margin: 20px 0px ; display: flex; justify-content:space-between ;align-items: center; 
 }
 .pic-title{font-weight: 700;
     font-size: 40px;
@@ -53,4 +53,29 @@ height: 20px;
 padding:10px 0px ;
 font-size:20; list-style: circle;
 }
+/* my plans section */
+.myplan{text-align: center;
+  font-weight: 700; pa
+  font-weight: 700;
+  font-size: 40px; width:1600px ;
+  margin:100px ;
+}
+.skills-container{
+    display:flex; justify-content: space-between;
+height:300px ; margin:0 40px ;
+}
+    .skill-title{
+        font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center; 
+    }
+    .skill-description{
+        font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+    }
+    .skill{
 
+    margin-top:50px ;}
