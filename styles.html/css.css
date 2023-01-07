@@ -4,7 +4,7 @@
 }
 
 /* banner styles */
-.banner{margin:0px 100px; align-content:right; }
+.banner{margin:0px 100px; align-content:right; padding:210px 50px ; }
 .banner-title{  font-weight: 700;
     font-size: 60px;line-height: 76px; margin-bottom:20px;
 }
@@ -28,3 +28,29 @@ color: #FFFFFF;
     height: 1000px;
     
 }
+/* pic and details */
+.pic-details{ background-color:#eaf0f3 ;
+    width: 1600px;
+    height: 500px; margin: 20px 20px ; display: flex; justify-content:space-between ;align-items: center; 
+}
+.pic-title{font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    padding:30px 30px ;
+
+}
+
+.pic-info{font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;padding:20px 30px ;
+
+}
+.main-li{
+    width: 330px;
+height: 20px;
+padding:10px 0px ;
+font-size:20; list-style: circle;
+}
+
