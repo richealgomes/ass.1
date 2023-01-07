@@ -10,7 +10,7 @@
 }
 .banner-paragraph{font-weight: 400;
     font-size: 20px;
-    line-height: 26px; margin-bottom:25px; margin: 60px 250px ;
+    line-height: 26px; margin-bottom:25px; margin: 0px 10px ; padding-bottom:40px ;
 
 }
 .btn{
@@ -25,7 +25,7 @@ color: #FFFFFF;
 .header{
     background-image:url(../images/banner/banner1.png);
     background-repeat: no-repeat;
-    width: 1600px; height:800px ;
+    width: 1600px; height:800px ;margin: 60px 250px ;
     
 }
 /* pic and details */
@@ -84,7 +84,9 @@ text-align: center;
     margin: 0px 400px ;font-weight: 700;
     font-size: 40px; color: #151414; margin:0 400px ;
     background-image:url(../images/watch.png) ;background-repeat: no-repeat;
-    height: 300px;padding: 50px 40px 0; gap: 10px;}
+    height: 300px;padding: 50px 40px 0; gap: 10px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+}
     .btn2{
         width: 160px;
         height: 40px;border-radius: 5px;
